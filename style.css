@@ -1,0 +1,60 @@
+ body {
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    min-width: 400px;
+  }
+
+  .container{ 
+    margin-top: 120px;
+    border: 10px double black;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    background-image: url(image/soleil.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    box-sizing: border-box;
+    animation-duration: 10s;
+    animation-name: slidein;
+    
+}
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 90%;
+    }
+    75% {
+      font-size: 100%;
+      margin-left: 0%;
+      width: 75%;
+    }
+  
+    to {
+      margin-left: 5%;
+      width: 100%;
+    }
+  }
+  
+  #ville {
+    text-transform: capitalize;
+  }
+  
+  #temperature {
+    font-size: 4em;
+  }
+  
+  #changer {
+    background: rgb(255, 0, 0,.3);
+    cursor: pointer;
+    border-radius: 10px;
+  }
+ 
+  #copy{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  
